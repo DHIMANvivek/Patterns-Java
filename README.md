@@ -385,6 +385,147 @@ Triangle of Numbers
 ![pattern of numbers](https://user-images.githubusercontent.com/53940939/155985810-9e7c7371-b82c-48d0-bbc2-8f42ef9d290b.png)
 
 
+# 6
+
+# Character Pattern
+
+<!--
+Note - Any content mention below in `<!-- ->` blocks are just comments
+to help you fill-up the issue. It won't be visible in the actual issue after
+you click on submit.
+-->
+
+
+#### Code you used for Submit/Run operation
+
+
+```
+// Pattern 
+import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		char a = 'A';
+
+		Scanner scan = new Scanner(System.in);
+
+		int s = scan.nextInt();
+		int i = 1;
+		while (i <= s) {
+
+			int j = 1;
+			char ab = (char) ('A' + i - 1);
+			while (j <= i) {
+
+				System.out.print(ab);
+				// a = (char) (a+1);
+				// a=(char)(a+1);
+				ab = (char)(ab+1);
+				j += 1;
+
+			}
+			System.out.println();
+
+			i++;
+
+		}
+
+	}
+
+}
+
+
+```
+
+#### Language used for code
+java 
+
+
+#### Expected behavior
+<!-- A clear and concise description of what you expected to happen in
+contrast with what actually happened. -->
+Character Pattern
+
+
+#### Screenshots
+
+
+![character pattern](https://user-images.githubusercontent.com/53940939/155986279-d6f5aaca-4e30-4771-a680-427d6ab24d9c.png)
+
+
+# 7
+
+# Reverse Number Pattern
+
+<!--
+Note - Any content mention below in `<!-- ->` blocks are just comments
+to help you fill-up the issue. It won't be visible in the actual issue after
+you click on submit.
+-->
+
+
+#### Code you used for Submit/Run operation
+
+
+```
+// Pattern 
+import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		 		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int i = 1;
+
+		while (i <= n) {
+			int j = 1;
+
+			while (j <= i) {
+
+			
+				
+                System.out.print((i+1)-j);
+				j = j+1;
+				
+
+			}
+			System.out.println();
+			 i++;
+
+            
+
+		}
+
+	}
+
+}
+
+
+```
+
+#### Language used for code
+java 
+
+
+#### Expected behavior
+<!-- A clear and concise description of what you expected to happen in
+contrast with what actually happened. -->
+Reverse Number Pattern
+
+
+#### Screenshots
+
+
+![reverse number](https://user-images.githubusercontent.com/53940939/155986598-a3319c43-bedc-4df3-9a15-1ffedb5277eb.png)
+
+
+
+
+
+
+
 
 
 
