@@ -523,8 +523,74 @@ Reverse Number Pattern
 
 
 
+# 8
+
+# Odd Square
+
+<!--
+Note - Any content mention below in `<!-- ->` blocks are just comments
+to help you fill-up the issue. It won't be visible in the actual issue after
+you click on submit.
+-->
 
 
+#### Code you used for Submit/Run operation
+
+
+```
+// Pattern 
+import java.util.Scanner;
+public class Main {
+	
+	public static void main(String[] args) {
+		// Write your code here
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        for(int i=1;i<=n;i++){
+            for(int j=i-1;j<n;j++){
+                System.out.print(j*2+1+"");
+            }
+            for(int k=0;k<i-1;k++){
+                System.out.print(k*2+1);
+            }
+            System.out.println();
+        }
+      //  int count=0;
+        // for(int i=0;i<n;i++){
+        //    // int count=0;
+        //     for(int j=0;j<2*n;j++){
+        //         if(j%2!=0){
+        //              System.out.print(j+count);
+        //         }
+        //        // count++;
+        //     }
+        //     // for(int j=0;j<n;j++){
+        //     //     System.out.print(i+j+1);
+        //     // }
+        //     System.out.println();
+        //     count=count+2;
+        
+	}
+}
+
+
+
+```
+
+#### Language used for code
+java 
+
+
+#### Expected behavior
+<!-- A clear and concise description of what you expected to happen in
+contrast with what actually happened. -->
+Odd Square
+
+
+#### Screenshots
+
+
+![odd square](https://user-images.githubusercontent.com/53940939/155987279-afa24041-a764-495a-8d57-ce46c7e3e3fd.png)
 
 
 
