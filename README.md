@@ -211,6 +211,187 @@ contrast with what actually happened. -->
 ![half diamond](https://user-images.githubusercontent.com/53940939/155985151-811353de-1999-4759-be03-b3748d9eb814.png)
 
 
+# 4
+
+# Star Diamond Pattern
+
+<!--
+Note - Any content mention below in `<!-- ->` blocks are just comments
+to help you fill-up the issue. It won't be visible in the actual issue after
+you click on submit.
+-->
+
+
+#### Code you used for Submit/Run operation
+
+
+```
+// Pattern 
+import java.util.Scanner;
+public class Solution {
+    
+   public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int i = 1;
+		int n1 = (n + 1) / 2;
+		int n2 = n / 2;
+		while (i <= n1) {
+
+			int j = n1;
+			while (j <= n - i) {
+				System.out.print(" ");
+				j++;
+			}
+			int star = 1;
+
+			while (star <= i) {
+				// i+j-1;
+				System.out.print("*");
+				star++;
+			}
+			int dec = i - 1;
+			while (dec >= 1) {
+				System.out.print("*");
+				dec--;
+			}
+			System.out.println();
+			i++;
+
+		}
+
+		i = n2;
+
+		while (i > 0) {
+			int space = n2 + 1;
+
+			while (space <= n - i) {
+				System.out.print(" ");
+				space++;
+			}
+			int star = 1;
+
+			while (star <= i) {
+				// i+j-1;
+				System.out.print("*");
+				star++;
+			}
+			int dec = i - 1;
+			while (dec >= 1) {
+				System.out.print("*");
+				dec--;
+			}
+			System.out.println();
+			i--;
+
+		}
+	}
+}
+```
+
+#### Language used for code
+java 
+
+
+#### Expected behavior
+<!-- A clear and concise description of what you expected to happen in
+contrast with what actually happened. -->
+ Star Diamond Pattern
+
+
+#### Screenshots
+
+
+![Diamond Pattern](https://user-images.githubusercontent.com/53940939/155985506-39d9bf40-f716-4115-a37b-fe442b4d2fed.png)
+
+
+
+# 5
+
+# Triangle of Numbers
+
+<!--
+Note - Any content mention below in `<!-- ->` blocks are just comments
+to help you fill-up the issue. It won't be visible in the actual issue after
+you click on submit.
+-->
+
+
+#### Code you used for Submit/Run operation
+
+
+```
+// Pattern 
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+	Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int i = 1;
+
+		while (i <= n) {
+
+			int j = 1;
+			while (j <= n - i) {
+				System.out.print(" ");
+				j++;
+			}
+			j = 1;
+			int r = i;
+			while (j <= i) {
+				System.out.print(r);
+				r++;
+				j++;
+
+			}
+
+			r = r - 2;
+			j = 1;
+			while (j <= i - 1) {
+				System.out.print(r);
+				r--;
+				j++;
+			}
+			System.out.println();
+			i++;
+
+		}
+
+	}
+
+}
+
+```
+
+#### Language used for code
+java 
+
+
+#### Expected behavior
+<!-- A clear and concise description of what you expected to happen in
+contrast with what actually happened. -->
+Triangle of Numbers
+
+
+#### Screenshots
+
+
+![pattern of numbers](https://user-images.githubusercontent.com/53940939/155985810-9e7c7371-b82c-48d0-bbc2-8f42ef9d290b.png)
+
+
+
+
+
+
+
+
+
 
 
 
