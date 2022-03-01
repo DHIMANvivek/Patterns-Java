@@ -597,6 +597,80 @@ Odd Square
 
 
 
+# 9
+
+# Pattern i using Break
+
+<!--
+Note - Any content mention below in `<!-- ->` blocks are just comments
+to help you fill-up the issue. It won't be visible in the actual issue after
+you click on submit.
+-->
+
+
+#### Code you used for Submit/Run operation
+
+
+```
+// Pattern 
+public class break_ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 4;
+		int i = 1;
+
+		while (i <= n) {
+
+			int j = 1;
+
+			while (j <= i) {
+				System.out.print(j);
+				j++;
+				if (j > i) {
+					break;
+				}
+			}
+			System.out.println();
+			i++;
+		}
+
+	}
+
+}
+
+
+
+```
+
+#### Language used for code
+java 
+
+
+#### Expected behavior
+<!-- A clear and concise description of what you expected to happen in
+contrast with what actually happened. -->
+Pattern i using Break
+
+
+#### Screenshots
+
+
+![patterns](https://user-images.githubusercontent.com/53940939/156188381-46b2fd1d-cfc9-47d0-9157-9a07c87ef0d7.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
